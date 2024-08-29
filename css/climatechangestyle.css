@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime');
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:');
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue');
+
+/* This bit you can't change. */
+body {
+  margin: 20px;
+  font-family: 'Poppins';
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+
+h1, h2, h3 {
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+}
+h1{
+  font-family: 'Bebas Neue';
+  font-size: 120px;
+  text-align: left;
+}
+h2{
+  font-size: 40px;
+  text-align: left;
+}
+h3{
+  font-size: 20px;
+  text-align: left;
+}
+
+h1, h3, span{
+ color: rgb(0, 0, 0);
+}
+
+span{
+   font-family: "Poppins";
+}
+/* Override heading and span styles here. */
+
+div{
+  display: inline-block;
+  vertical-align: top;
+  width: 49.44%;
+}
+a{
+  font-size: 17px;
+  color: rgb(0, 95, 0)
+}
+p{
+  font-size: 17px;
+}
+img{
+  display: inline-block;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 100%;
+}
+iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border: 10px rgb(0, 0, 0) solid;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  margin: -20;
+  width: 102.1%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(105, 105, 105);
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: rgb(0, 114, 25);
+  color: white;
+}
